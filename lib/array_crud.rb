@@ -23,7 +23,7 @@ end
 
 
 def remove_element_from_start_of_array(array)
-  remove = array.unshift
+  array.unshift()
   return remove
 end
 
