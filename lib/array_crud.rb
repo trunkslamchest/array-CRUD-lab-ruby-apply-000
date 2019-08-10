@@ -27,7 +27,7 @@ def remove_element_from_start_of_array(array)
   return remove
 end
 
-puts remove_element_from_start_of_array(array)
+puts remove_element_from_start_of_array(["wow", "I", "am", "really", "learning", "arrays!"])
 
 def retrieve_element_from_index(array, index_number)
   return array[index_number]
