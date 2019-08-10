@@ -20,12 +20,12 @@ def remove_element_from_end_of_array(array)
   return array.pop()
 end
 
-puts remove_element_from_end_of_array(array)
+
 
 def remove_element_from_start_of_array(array)
   remove = array.unshift
   return remove
-end
+endputs remove_element_from_end_of_array(array)
 
 def retrieve_element_from_index(array, index_number)
   return array[index_number]
